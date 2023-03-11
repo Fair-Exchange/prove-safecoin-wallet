@@ -9,7 +9,7 @@ import {
   SystemProgram,
   Transaction,
   TransactionResponse,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import { encode } from 'bs58';
 
 export type SignCallback = (transaction: Transaction) => Promise<Transaction>;

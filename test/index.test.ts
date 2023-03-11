@@ -5,10 +5,10 @@ import {
   Connection,
   clusterApiUrl,
   PublicKey,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import { Config, DEFAULT_CONFIG, makeTransaction } from '../src/utilities';
 
-describe('prove-solana-wallet', () => {
+describe('prove-safecoin-wallet', () => {
   afterEach(() => jest.restoreAllMocks());
 
   let myKeypair: Keypair;
@@ -44,7 +44,7 @@ describe('prove-solana-wallet', () => {
       commitment: 'confirmed',
       supportedClusterUrls: {
         // in this test, "mynet" is basically an alias for devnet, but it could be any cluster
-        mynet: 'https://api.devnet.solana.com/',
+        mynet: 'https://api.devnet.safecoin.org/',
       },
       recentBlockCheck: true,
       broadcastCheck: true,

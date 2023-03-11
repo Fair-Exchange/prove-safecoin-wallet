@@ -35,17 +35,17 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@identity.com/prove-solana-wallet",
+  "name": "@safecoin/prove-safecoin-wallet",
   "author": "Daniel Kelleher <daniel@identity.com>",
   "description": "Prove ownership of a Solana wallet.",
-  "module": "dist/prove-solana-wallet.esm.js",
+  "module": "dist/prove-safecoin-wallet.esm.js",
   "size-limit": [
     {
-      "path": "dist/prove-solana-wallet.cjs.production.min.js",
+      "path": "dist/prove-safecoin-wallet.cjs.production.min.js",
       "limit": "200 KB"
     },
     {
-      "path": "dist/prove-solana-wallet.esm.js",
+      "path": "dist/prove-safecoin-wallet.esm.js",
       "limit": "200 KB"
     }
   ],
@@ -60,7 +60,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.63.1",
+    "@safecoin/web3.js": "^1.63.1",
     "bs58": "^4.0.1"
   }
 }

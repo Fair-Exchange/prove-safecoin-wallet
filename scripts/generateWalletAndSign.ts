@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import {prove, verify} from '../src'
 
 const keypair = Keypair.generate();
